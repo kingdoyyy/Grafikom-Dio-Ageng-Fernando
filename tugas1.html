@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas 1</title>
+    <link rel="stylesheet" href="tugas1.css">
+</head>
+<body>
+    <header>
+        <h1>Tugas 1</h1>
+    </header>
+
+    <section class="upload-section">
+        <h2>Upload File Tugas</h2>
+        <input type="file" id="fileInput">
+        <button onclick="uploadFile()">Upload</button>
+    </section>
+
+    <section class="upload-section">
+        <h2>Upload Link Tugas</h2>
+        <input type="text" id="linkInput" placeholder="Masukkan link tugas">
+        <button onclick="uploadLink()">Upload Link</button>
+    </section>
+
+    <section class="file-list">
+        <h2>Daftar Tugas yang Diunggah</h2>
+        <ul id="fileContainer">
+            <!-- File & Link akan muncul di sini -->
+        </ul>
+    </section>
+
+    <script src="tugas1.js"></script>
+</body>
+</html>
